@@ -7,9 +7,6 @@ header .logo{
     left: calc(50% - 40px);
     top: 16px;
 }
-header{
-    padding: 15px 0;
-}
 .container{
     max-width: 1064px;
     margin: auto;
@@ -18,9 +15,13 @@ header .container{
     display: flex;
     justify-content: space-between;
 }
+header nav ul{
+    padding: 15px 0;
+}
 header ul{
     list-style: none;
     display: flex;
+    padding: 7px 0 0;
 }
 header nav ul li{
     margin-right: 28px;
@@ -41,8 +42,12 @@ header ul li a{
 }
 header .items li:first-of-type{
     position: relative;
-    top: 9px;
+    top: 10px;
     right: 15px;
+}
+header .items li:nth-child(2){
+    position: relative;
+    top: -1px;
 }
 header .items li:last-of-type {
     position: relative;
@@ -74,7 +79,7 @@ header .items li:last-of-type {
     margin-bottom: 42px;
 }
 .main_box{
-    max-width: 534px;
+    max-width: 481px;
 }
 .main_text{
     font-family: 'Roboto', sans-serif;
@@ -97,4 +102,90 @@ header .items li:last-of-type {
     line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
+}
+.best_sellers{
+    padding: 60px 0 248px;
+}
+.best_sellers_title{
+    margin-bottom: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.best_sellers_text{
+    margin-bottom: 47px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.best_sellers_text_tiny{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 88px;
+}
+.best_sellers_subtitle{
+    margin-bottom: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.best_sellers .container:last-of-type{
+    display: flex;
+    justify-content: space-between;
+}
+.best_sellers_box{
+    max-width: 309px;
+    text-align: center;
+}
+.best_sellers_desc{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.best_sellers_image{
+    display: block;
+    width: 100%;
+    margin-bottom: 27px;
+}
+.best_sellers_price{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.best_sellers_link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
 }
