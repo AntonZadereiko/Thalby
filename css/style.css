@@ -189,3 +189,49 @@ header .items li:last-of-type {
     text-decoration-line: underline;
     color: #000000;
 }
+.people_society{
+    padding: 76px 0 51px;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.people_society .container {
+    display: flex;
+}
+.people_society_image{
+    display: block;
+    max-width: 385px;
+    width: 100%;
+    margin-right: 50px;
+}
+.people_society_box{
+    max-width: 498px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.people_society_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_society_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.people_society_link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
