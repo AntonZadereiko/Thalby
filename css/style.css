@@ -235,3 +235,7 @@ header .items li:last-of-type {
     text-decoration-line: underline;
     color: #000000;
 }
+.owl-item{
+    display: flex;
+    justify-content: center;
+}
