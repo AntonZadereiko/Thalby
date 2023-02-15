@@ -239,3 +239,21 @@ header .items li:last-of-type {
     display: flex;
     justify-content: center;
 }
+.owl-dots span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.owl-dots {
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.owl-dots .active span{
+    background-color: deepskyblue;
+}
