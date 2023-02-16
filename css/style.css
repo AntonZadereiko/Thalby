@@ -195,6 +195,7 @@ header .items li:last-of-type {
 }
 .people_society .container {
     display: flex;
+    text-align: left;
 }
 .people_society_image{
     display: block;
@@ -256,4 +257,47 @@ header .items li:last-of-type {
 }
 .owl-dots .active span{
     background-color: deepskyblue;
+}
+#dialog {
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+.ui-dialog-titlebar{
+background-color: red;
+    color: white;
+}
+.culture_society{
+    padding: 76px 0 51px;
+    background-color: rgba(204, 204, 204, 0.6);;
+}
+.culture_society .container{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.culture_society .people_society_image{
+    margin-left: 50px;
+}
+.culture_society .people_society_box{
+    max-width: 513px;
+}
+.culture_society .people_society_text{
+    margin-bottom: 31px;
+}
+.power_politics{
+    padding: 76px 0 51px;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.power_politics .container{
+    display: flex;
+}
+.power_politics .people_society_box{
+    max-width: 530px;
+}
+.ui-button{
+    position: relative;
+    right: -154px;
+    background-color: yellow;
+    color: black;
 }
