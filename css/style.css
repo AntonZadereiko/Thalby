@@ -16,7 +16,7 @@ header .container{
     justify-content: space-between;
 }
 header nav ul{
-    padding: 15px 0;
+    padding: 10px 0;
 }
 header ul{
     list-style: none;
@@ -24,7 +24,7 @@ header ul{
     padding: 7px 0 0;
 }
 header nav ul li{
-    margin-right: 28px;
+    margin-right: 5px;
 }
 header nav ul li a{
     font-family: 'Roboto', sans-serif;
@@ -264,7 +264,7 @@ header .items li:last-of-type {
     padding: 0;
 }
 .ui-dialog-titlebar{
-background-color: red;
+    background-color: red;
     color: white;
 }
 .culture_society{
